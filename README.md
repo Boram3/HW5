@@ -9,6 +9,7 @@ GNU Machine_Learning_Lecture Assignment_5
 - tensorflow
 - scikit-learn
 - notebook
+- etc...
 
 위 패키지를 설치하기 위해서는 다음 명령을 실행하세요: `pip install -r requirements.txt`
 <br>
@@ -16,4 +17,12 @@ GNU Machine_Learning_Lecture Assignment_5
 
 # 모델 구성 전략
 
-- 여러 층으로 Layer를 적층 후, 모델 학습 (활성화 함수: Relu)
+- 1개의 은닉층을 지닌 가장 기본적인 형태의 학습 모델
+- 검증 데이터를 활용, 다중 은닉층을 지닌 모델로 구성한 학습 모델
+- K-Fold 교차 검증을 적용한 학습 모델
+- 위 3가지 모델을 융합한 앙상블 모델
+
+# 참고자료
+
+- epoch 중 accuray와 loss를 받아오는 방법
+  - https://wikidocs.net/192942
